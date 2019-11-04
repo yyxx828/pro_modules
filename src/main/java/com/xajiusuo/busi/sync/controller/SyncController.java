@@ -3,7 +3,6 @@ package com.xajiusuo.busi.sync.controller;
 import com.xajiusuo.busi.sync.entity.InDataLog;
 import com.xajiusuo.busi.sync.entity.SyncConf;
 import com.xajiusuo.busi.sync.service.InDataLogService;
-import com.xajiusuo.busi.sync.service.MultiFileService;
 import com.xajiusuo.busi.sync.service.SyncConfService;
 import com.xajiusuo.busi.sync.vo.SyncConfFactory;
 import com.xajiusuo.jpa.config.BaseController;
@@ -18,7 +17,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.multipart.MultipartFile;
 
 import java.text.MessageFormat;
 import java.util.List;
